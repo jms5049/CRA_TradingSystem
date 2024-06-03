@@ -1,9 +1,6 @@
 #include "gtest/gtest.h"
 #include "gmock/gmock.h"
 #include <string>
-
-#include "../TradingSystem/AutoTradingSystem.cpp"
-#include "../TradingSystem/StockBroker.cpp"
 using namespace testing;
 
 class BrokerMock : public StockBroker {
